@@ -1,0 +1,94 @@
+/*Set up*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-rendering: optimizeLegibility;
+    font-weight: 300;
+    
+}
+
+.row{
+    margin: auto;
+    max-width: 1140px;
+}
+
+/*header*/
+header{
+    background-image: url(../imgs/WCCFresidentevilvillagedemo3.jpg) ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+/*background choice*/
+.background-choice{
+    background-color: #8C0101;
+    border-radius: 8px;
+    transform: translate(0,50%);
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+    transform: translate(0,100px);
+}
+
+h1{
+    font-size: 250%;
+    color: white;
+    font-family: biohazard game font regular;
+    text-align: center;
+}
+
+.questions li {
+    list-style: none;
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    margin: -5px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+    font-size: 150%;
+}
+
+.questions li:first-child{
+    font-family: biohazard game font regular;
+    font-size: 200%;
+    border: 2px solid black;
+    background-color: #7E605A;
+    border-radius: 50%;
+   padding-left: 18px;
+   width: 5%;
+   height: 50px;
+}
+
+form{
+    margin-left: 60px;
+    color: white;
+    font-size: 150%;
+}
+
+form input{
+    width: 20px;
+}
+
+.btn{
+    text-decoration: none;
+  margin-left: 35%;
+  color: white;
+  font-family:biohazard game font regular ;
+  font-size: 200%;
+  border: 2px solid #7E605A;
+  border-radius: 10px;
+  background-color: #7E605A;
+  padding: 5px;
+  transform: translate(0,-100px);
+  position:absolute;
+  transform: translate(0,130%);
+}
+
